@@ -50,6 +50,10 @@ const element =
     <div>
         <Counter></Counter>
         <Counter></Counter>
+        <Counter></Counter>
+        <Counter></Counter>
+        <Counter></Counter>
+        <Counter></Counter>
     </div>
 
 ReactDOM.render(element, document.getElementById('app'));
