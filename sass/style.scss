@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.counter {
+    color: #585346;
+    padding: 15px;
+    margin: 0 auto;
+    width: 350px;
+    background-color: #F2B705;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    &:nth-child(odd) {
+        background-color: #F2780C;
+    }
+    button {
+        margin: 0 5px;
+        background-color: #BF0B2C;
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    &:last-child {
+        border-bottom: 1px solid black;
+    }
+    span {
+        float: right;
+    }
+}
